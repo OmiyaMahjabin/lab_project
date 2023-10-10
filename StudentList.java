@@ -19,7 +19,7 @@ public class StudentList {
 		}
 		else if(args[0].equals("r")) 
 		{
-			System.out.println("Loading data ...");			
+			System.out.println("Loading data ...");	//step#2		
 			try {
 			BufferedReader s = new BufferedReader(
 					new InputStreamReader(
