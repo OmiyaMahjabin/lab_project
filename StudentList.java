@@ -15,7 +15,7 @@ public class StudentList {
 			String i[] = r.split(",");			
 			for(String j : i) { System.out.println(j); }
 			} catch (Exception e){} 
-			System.out.println("Data Loaded.");
+			System.out.println("Data Loaded.");//step#1
 		}
 		else if(args[0].equals("r")) 
 		{
