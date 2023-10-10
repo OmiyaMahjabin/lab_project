@@ -23,7 +23,7 @@ public class StudentList {
 			try {
 			BufferedReader s = new BufferedReader(
 					new InputStreamReader(
-							new FileInputStream("students.txt"))); 
+							new FileInputStream("students.txt"))); //step#3
 			String r = s.readLine();
 			System.out.println(r);
 			String i[] = r.split(",");	
